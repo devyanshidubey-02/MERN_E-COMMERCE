@@ -97,5 +97,5 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/mern-ecommerce-frontend.git
+git clone https://github.com/devyanshidubey-02/MERN_E-COMMERCE.git
 cd mern-ecommerce-frontend
