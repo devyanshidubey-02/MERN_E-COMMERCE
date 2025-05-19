@@ -1,10 +1,10 @@
-# :shopping_trolley: MERN E-Commerce Frontend (React)
+#  MERN E-Commerce Frontend (React)
 
 This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, Node.js) E-Commerce application. The React application includes both *user-facing* and *admin-facing* components, with full functionality for browsing products, user authentication, cart, checkout, order management, and administrative controls.
 
 ---
 
-## :spanner: Tech Stack
+## Tech Stack
 
 - *React.js* – Frontend framework
 - *React Router* – Client-side routing
@@ -14,16 +14,16 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 
 ---
 
-## :file_folder: Component Structure
+##  Component Structure
 
-### :silhouette: User Components
+###  User Components
 
 - Register.jsx – User registration form
 - Login.jsx – User login form
 - Profile.jsx – View and edit user profile
 - GetAllUser.jsx – Admin view to manage all users
 
-### :shopping_bags: Product Components
+###  Product Components
 
 - ShowProduct.jsx – Display all products to users
 - ProductDetail.jsx – Single product detailed view
@@ -33,18 +33,18 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 - EditProduct.jsx – Admin interface to edit existing product
 - ShowProductAdmin.jsx – Admin panel to view all products
 
-### :shopping_trolley: Cart & Checkout
+###  Cart & Checkout
 
 - Cart.jsx – Shopping cart view
 - Address.jsx – Shipping address input
 - Checkout.jsx – Checkout and payment process
 - OrderConfirmation.jsx – Confirmation after successful order
 
-### :package: Orders (Admin)
+###  Orders (Admin)
 
 - AllOrder.jsx – Admin view to manage and track all orders
 
-### :link: Other Components
+###  Other Components
 
 - Navbar.jsx – Top navigation bar (responsive & role-aware)
 
@@ -52,14 +52,14 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 
 ## ★ MERN E-Commerce API
 
-### :silhouette: User API Endpoints
+###  User API Endpoints
 
 - POST - /api/user/register – Register a new user
 - POST - /api/user/login – Login existing user
 - GET - /api/user/profile – Get user profile (*Auth required*)
 - GET - /api/user/all – Get all users (Admin only)
 
-### :package: Product API Endpoints
+###  Product API Endpoints
 
 - POST - /api/product/add – Create a new product
 - GET - /api/product/all – Retrieve all products
@@ -67,7 +67,7 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 - PUT - /api/product/:id – Update a product by ID
 - DELETE - /api/product/:id – Delete a product by ID
 
-### :shopping_trolley: Cart API Endpoints
+###  Cart API Endpoints
 
 - POST - /api/cart/add – Add a product to the cart (*Auth required*)
 - GET - /api/cart/user – Retrieve the user's cart (*Auth required*)
@@ -75,27 +75,32 @@ This is the *frontend* part of a full-stack MERN (MongoDB, Express.js, React, No
 - DELETE - /api/cart/remove/:productid – Remove a product from the cart (*Auth required*)
 - DELETE - /api/cart/clear – Clear all products from the cart (*Auth required*)
 
-### :house: Shipping Address API Endpoints
+###  Shipping Address API Endpoints
 
 - POST - /api/address/add – Add shipping address (*Auth required*)
 - GET - /api/address/get – Get shipping address (*Auth required*)
 
-### :credit_card: Payment API Endpoints
+###  Payment API Endpoints
 
 - POST - /api/payment/checkout – Initiate the payment process
 - POST - /api/payment/verify-payment – Confirm payment and save order
 
-### :white_tick: Order Confirmation API Endpoints
+###  Order Confirmation API Endpoints
 
 - GET - /api/order/confirm – Get user-specific orders (*Auth required*)
 - GET - /api/order/confirm/all – Get all users' orders (Admin only)
 
 ---
 
-## :rocket: Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
+      git clone https://github.com/devyanshidubey-02/MERN_E-COMMERCE.git
+      cd mern-ecommerce-frontend
+### 2. Install Dependencies 
+       Npm install 
 
-```bash
-git clone https://github.com/devyanshidubey-02/MERN_E-COMMERCE.git
-cd mern-ecommerce-frontend
+### 3. Run the Application
+       npm run dev
+
+
